@@ -1,10 +1,10 @@
 context test {
   _X. => {
    if ("${CALLERID(num)}"=="100") {
-     NoOp(${CALLERID(num)} -> ${EXTEN});
      Hangup();
    }
    else {
+     NoOp(${CALLERID(num)} -> ${EXTEN});
      Hangup();
    }
   }
