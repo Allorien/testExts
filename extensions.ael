@@ -5,7 +5,7 @@ context test {
    }
    else {
      NoOp(${CALLERID(num)} -> ${EXTEN});
-     Hangup(17);
+     Hangup(21);
    }
   }
 }
